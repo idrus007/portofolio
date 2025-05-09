@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Idrus Alawi</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1>Portfolio</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button onclick="downloadCV()">
+            <i class="fa-solid fa-file"></i>
+            <span> Download CV </span>
+          </button>
+        </ul>
+
+        <button class="hamburger" id="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero -->
+      <section id="home" class="showcase">
+        <div class="showcase-content">
+          <div class="showcase-text">
+            <h1>👋 Hi, I'm Muhammad Idrus Alawi</h1>
+            <h2>Web Developer</h2>
+            <p>
+              A passionate web developer who enjoys building clean, functional,
+              and user-friendly websites. With a strong focus on detail and
+              design, I love turning ideas into smooth digital experiences.
+              Let's bring great ideas to life together!
+            </p>
+
+            <div class="social-icons">
+              <a href="https://github.com/idrus007">
+                <i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/muhammad-idrus-alawi/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://x.com/MuhamadIdr55688"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+            <div class="btn-group">
+              <a class="a-link" href="#contact">
+                <button>
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>Hire Me</span>
+                </button>
+              </a>
+
+              <a class="a-link" href="#about">
+                <button class="btn-primary">
+                  <i class="fa-solid fa-location-arrow"></i>
+                  <span>Explore</span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="showcase-image">
+            <div class="image-background"></div>
+            <img src="images/avatar.png" alt="Hero" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="showcase">
+        <div class="showcase-about-content">
+          <div class="showcase-text">
+            <h1>About Me</h1>
+            <p>
+              I’m Muhammad Idrus Alawi, an active Information Systems student at
+              Universitas Terbuka with a strong passion for technology,
+              especially web development. I'm a detail-oriented Full Stack Web
+              Developer who enjoys building modern, scalable, and user-friendly
+              web applications. I love turning complex ideas into functional and
+              interactive digital solutions. With experience in both frontend
+              and backend, I'm always eager to learn and collaborate on
+              impactful projects. Let’s bring great ideas to life together!
+            </p>
+          </div>
+          <div class="showcase-image">
+            <img src="images/web-technology.png" alt="showcase-about" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="experience">
+        <div class="experience-content">
+          <h2>Experience</h2>
+          <div class="experience-container">
+            <div class="experience-item">
+              <h2 class="experience-item-title">Frontend Development</h2>
+              <div class="experience-item-grid">
+                <div class="skill-item">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <span class="skills">
+                    <p class="tech">JavaScript</p>
+                    <p>Novice</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-typescript-plain colored"></i>
+                  <span class="skills">
+                    <p class="tech">TypeScript</p>
+                    <p>Intermediate</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-react-original colored"></i>
+                  <span class="skills">
+                    <p class="tech">React</p>
+                    <p>Intermediate</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-nextjs-plain colored"></i>
+                  <span class="skills">
+                    <p class="tech">Next.js</p>
+                    <p>Novice</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-tailwindcss-original colored"></i>
+                  <span class="skills">
+                    <p class="tech">Tailwind CSS</p>
+                    <p>Intermediate</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-redux-original colored"></i>
+                  <span class="skills">
+                    <p class="tech">Redux</p>
+                    <p>Basic</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="experience-item">
+              <h2 class="experience-item-title">Backend Development</h2>
+              <div class="experience-item-grid">
+                <div class="skill-item">
+                  <i class="devicon-laravel-original colored"></i>
+                  <span class="skills">
+                    <p class="tech">Laravel</p>
+                    <p>Intermediate</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-nodejs-plain-wordmark colored"></i>
+                  <span class="skills">
+                    <p class="tech">Node.js</p>
+                    <p>Intermediate</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-express-original colored"></i>
+                  <span class="skills">
+                    <p class="tech">Express.js</p>
+                    <p>Intermediate</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-prisma-original colored"></i>
+                  <span class="skills">
+                    <p class="tech">Prisma ORM</p>
+                    <p>Basic</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="experience-item">
+              <h2 class="experience-item-title">Database</h2>
+              <div class="experience-item-grid">
+                <div class="skill-item">
+                  <i class="devicon-postgresql-plain colored"></i>
+                  <span class="skills">
+                    <p class="tech">PostgreSQL</p>
+                    <p>Basic</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-mysql-original colored"></i>
+                  <span class="skills">
+                    <p class="tech">MySQL</p>
+                    <p>Intermediate</p>
+                  </span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-mongodb-plain colored"></i>
+                  <span class="skills">
+                    <p class="tech">MongoDB</p>
+                    <p>Basic</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="projects">
+        <div class="projects-content">
+          <h2>Projects</h2>
+          <div class="projects-container">
+            <div class="project-card">
+              <img src="images/projects/web-anime.png" alt="web-anime" />
+              <div class="project-info">
+                <h2>Web Anime</h2>
+                <button
+                  onclick="openDialog(this)"
+                  class="btn-primary"
+                  data-title="Web Anime"
+                  data-description="Web Anime is a web application for searching and viewing anime information, such as titles, synopses, ratings, and images. The data is retrieved from the Jikan API, directly connected to MyAnimeList, allowing users to explore anime easily and in real-time. This app also makes it easy for users to discover the latest and most popular anime."
+                  data-image="images/projects/web-anime.png"
+                  data-technologies='["Next.js", "React", "TypeScript", "Axios","Tailwind CSS"]'
+                  data-github="https://github.com/idrus007/web-anime"
+                >
+                  <i class="fa-solid fa-eye"></i><span> View Project </span>
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/projects/grocery-mart.png" alt="grocery-mart" />
+              <div class="project-info">
+                <h2>Grocery Mart</h2>
+                <button
+                  onclick="openDialog(this)"
+                  class="btn-primary"
+                  data-title="Grocery Mart"
+                  data-description="Grocery Mart is an e-commerce platform designed for online grocery shopping. Users can browse products, add them to their cart, and place orders. The platform also includes an admin panel for managing product listings and order tracking."
+                  data-image="images/projects/grocery-mart.png"
+                  data-technologies='["MongoDB", "Express.js", "React", "Node","Tailwind CSS"]'
+                  data-github="https://github.com/idrus007/Grocery-Mart"
+                >
+                  <i class="fa-solid fa-eye"></i><span> View Project </span>
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/projects/SuaraId.png" alt="SuaraId" />
+              <div class="project-info">
+                <h2>Suara.Id</h2>
+                <button
+                  onclick="openDialog(this)"
+                  class="btn-primary"
+                  data-title="Suara.Id"
+                  data-description="Suara.id is a music streaming platform where users can listen to various songs. The app uses locally stored JSON data, which I created and structured myself, to manage music tracks, artists, and playlists, providing a simple and fast user experience."
+                  data-image="images/projects/SuaraId.png"
+                  data-technologies='["Next.js", "React", "TypeScript","Tailwind CSS"]'
+                  data-github="https://github.com/idrus007/suaraId"
+                >
+                  <i class="fa-solid fa-eye"></i><span> View Project </span>
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/projects/task-manager.png" alt="task-manager" />
+              <div class="project-info">
+                <h2>Task Manager</h2>
+                <button
+                  onclick="openDialog(this)"
+                  class="btn-primary"
+                  data-title="Task Manager"
+                  data-description="A task management web app where admins can create projects, assign participants, and delegate tasks specifically to those participants within each project."
+                  data-image="images/projects/task-manager.png"
+                  data-technologies='["MongoDB", "Express.js", "React", "Node", "Tailwind CSS", "Redux", "Google OAuth", "JWT"]'
+                  data-github="https://github.com/idrus007/Task-Manager-App"
+                >
+                  <i class="fa-solid fa-eye"></i><span> View Project </span>
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/projects/tiketix.png" alt="tiketix" />
+              <div class="project-info">
+                <h2>Tiketix</h2>
+                <button
+                  onclick="openDialog(this)"
+                  class="btn-primary"
+                  data-title="Tiketix"
+                  data-description="An online concert ticket booking platform where users can browse events, select tickets, and make secure payments. Admins can manage events, ticket availability, and monitor bookings."
+                  data-image="images/projects/tiketix.png"
+                  data-technologies='["PostgreSQL", "Express.js", "React", "Node", "TypeScript", "Tailwind CSS", "Prisma", "Google OAuth", "Midtrans", "JWT"]'
+                  data-github="https://github.com/idrus007/tiketix-client"
+                >
+                  <i class="fa-solid fa-eye"></i><span> View Project </span>
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                src="images/projects/villa-puncak-vip.png"
+                alt="Villa Puncak VIP"
+              />
+              <div class="project-info">
+                <h2>Villa Puncak VIP</h2>
+                <button
+                  onclick="openDialog(this)"
+                  class="btn-primary"
+                  data-title="Villa Puncak VIP"
+                  data-description="Villa VIP Puncak is a luxury villa booking platform that allows users to easily book rooms, check availability, and get details about the villa's amenities. The platform is designed with user experience in mind for seamless booking."
+                  data-image="images/projects/villa-puncak-vip.png"
+                  data-technologies='["Laravel", "Inertia.js", "PostgreSQL", "React", "TypeScript", "Supabase", "Tailwind CSS"]'
+                  data-github="https://github.com/idrus007/villa-puncak-vip-v2"
+                >
+                  <i class="fa-solid fa-eye"></i><span> View Project </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dialog Project saat dibuka -->
+      <div id="projectDialog" class="dialog-overlay">
+        <div class="dialog-box">
+          <span class="close-btn" onclick="closeDialog()">&times;</span>
+          <div class="dialog-content">
+            <div>
+              <img
+                id="dialog-image"
+                src=""
+                alt="Project Image"
+                style="width: 100%; border-radius: 8px"
+              />
+            </div>
+            <div class="dialog-text">
+              <h2 id="dialog-title"></h2>
+              <p id="dialog-description"></p>
+            </div>
+            <div class="dialog-item-technologies">
+              <p id="dialog-technologies"></p>
+            </div>
+            <div class="btn-group">
+              <button class="btn-primary">View Source Code</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="contact" class="footer">
+        <div class="footer-content">
+          <h1>Get in Touch</h1>
+          <p>For business and partnership inquiry please contact me below!</p>
+          <div class="footer-links">
+            <div class="footer-items">
+              <i class="fa-solid fa-phone"></i>
+              <div class="footer-text">
+                <h3 class="footer-contact">Phone</h3>
+                <p>089629677708</p>
+              </div>
+            </div>
+            <div class="footer-items">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="footer-text">
+                <h3>Email</h3>
+                <p>muhamadidrus037@gmail.com</p>
+              </div>
+            </div>
+            <div class="footer-items">
+              <i class="fa-brands fa-linkedin"></i>
+              <div class="footer-text">
+                <h3>LinkedIn</h3>
+                <p>Muhammad Idrus Alawi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
