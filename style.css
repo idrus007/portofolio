@@ -512,6 +512,7 @@ button:hover {
   .showcase {
     flex-direction: column;
     padding: 40px 90px;
+    margin-top: 20px;
     height: auto;
   }
 
